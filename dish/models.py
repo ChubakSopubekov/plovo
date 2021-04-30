@@ -10,4 +10,4 @@ class Dish(models.Model):
         verbose_name_plural = "Название блюд"
 
     def __str__(self):
-        return self.name
+        return self.name 
